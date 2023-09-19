@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Java Script</h1>
+    <br>
+    <button>Click Me</button>
+    <br>
+    <div id = "hover"> Hello </div>
+    <script>
+        console.log(jQuery) ;  
+        
+        // $('button').click(function(){
+        //     alert("Button Clicked") ;
+        //     $(this).css("background-color","lightblue") ; 
+        // })
+        
+        // $('button').click(function(){
+        //     alert("Button Clicked") ;
+        //     $(this).css("background-color","red") ; 
+        // })
+
+        // $('div').mouseover(function(){
+        //     // alert("div Hovered") ; 
+        //     $('h1').fadeToggle() ; 
+        //     $(this).css("background-color","lightblue") ; 
+        // })
+
+        // animate
+        
+        // console.log($('button')) ; 
+        // console.log($('h1')) ;
+        // console.log($(':hidden')) ; 
+        $('button').click(function(){
+    var name = prompt("Enter your name ") ;
+    var n = name.length ;  
+    var firstname = name.slice(0,1).toUpperCase() ; 
+    var restname = name.slice(1,n) ; 
+    alert("Your name is " + firstname + restname) ; 
+})
+
+        // $('button').click(function(){
+        //     let name = prompt("Enter your name : ") ; 
+        //     name.charAt(0) = name.charAt(0).toUpperCase() ; 
+        //     alert("Hello "+ name) ; 
+        // })
+
+    </script>
+</body>
+
+</html>
